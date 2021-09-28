@@ -4795,7 +4795,7 @@ input[type="button"].btn-block {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: rgba(255, 255, 255, 0.5);
+    /* color: rgba(255, 255, 255, 0.5); */
 }
 
 .navbar-dark .navbar-nav .nav-link:hover,
@@ -9921,7 +9921,7 @@ h5,
     left: 0;
     top: 0;
     margin-top: -130px;
-    background: #fff !important;
+    /* background: #fff !important; */
     -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
 }
@@ -9985,7 +9985,7 @@ h5,
 .ftco-navbar-light.scrolled .nav-link {
     padding-top: 0.9rem !important;
     padding-bottom: 0.9rem !important;
-    color: #000 !important;
+    /* color: #000 !important; */
 }
 
 .ftco-navbar-light.scrolled .nav-link.active {
@@ -10006,7 +10006,7 @@ h5,
 }
 
 .ftco-navbar-light.scrolled .navbar-brand {
-    color: #000;
+    /* color: #000; */
 }
 
 .navbar-brand {

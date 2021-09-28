@@ -37,7 +37,7 @@
               <h2 class="ftco-heading-2">Our Stores</h2>
               <ul class="list-unstyled">
                 <li><a href="#" class="py-2 d-block">Atomy</a></li>
-                <li><a href="#" class="py-2 d-block">ENagic</a></li>
+                <li><a href="#" class="py-2 d-block">Enagic</a></li>
                 <li><a href="#" class="py-2 d-block">QuiAri</a></li>
                 <li><a href="#" class="py-2 d-block">Rainbow Rxs</a></li>
               </ul>
@@ -55,13 +55,13 @@
                   <li>
                     <a href="#"
                       ><span class="icon icon-phone"></span
-                      ><span class="text">+X XXX XXX</span></a
+                      ><span class="text">+x xxx xxx</span></a
                     >
                   </li>
                   <li>
                     <a href="#"
                       ><span class="icon icon-envelope"></span
-                      ><span class="text">xxx@xxx.com</span></a
+                      ><span class="text">xxx@ xxx.com</span></a
                     >
                   </li>
                 </ul>
