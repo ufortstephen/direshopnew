@@ -32,7 +32,9 @@
             <h1 class="mb-5">Beauty & Health Shop</h1>
 
             <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-              <a href="" class="btn btn-white btn-outline-white px-4 py-3"
+              <a
+                href=""
+                class="btn btn-white btn-outline-white btn-radius px-4 py-3"
                 >Visit Our Stores</a
               >
             </p>
@@ -51,5 +53,11 @@ export default {
 };
 </script>
 
-<style>
+<style >
+.btn-radius {
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  -ms-border-radius: 30px;
+  border-radius: 30px;
+}
 </style>

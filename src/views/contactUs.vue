@@ -66,7 +66,7 @@
                 <input
                   type="submit"
                   value="Send Message"
-                  class="btn btn-primary py-3 px-5"
+                  class="btn btn-primary py-3 px-5 btn-radius"
                 />
               </div>
             </form>

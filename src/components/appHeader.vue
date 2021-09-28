@@ -52,7 +52,9 @@
               <a href="javascript:void(0)" class="nav-link">Mixed</a>
             </li>
             <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link">Login</a>
+              <a href="javascript:void(0)" class="nav-link" @click="goToLogin()"
+                >Login</a
+              >
             </li>
             <li class="nav-item">
               <a
@@ -86,6 +88,9 @@ export default {
     },
     goToContactPage() {
       this.$router.push("/contact");
+    },
+    goToLogin() {
+      this.$router.push("/login");
     },
   },
 };
