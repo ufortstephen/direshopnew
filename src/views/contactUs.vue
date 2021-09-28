@@ -83,6 +83,7 @@ import appHeader from "@/components/appHeader.vue";
 import appFooter from "@/components/appFooter.vue";
 
 export default {
+  title: "Contact Us  - Direshop Beauty And Health Shop",
   name: "Home",
   components: {
     appHeader,

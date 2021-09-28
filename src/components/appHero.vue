@@ -32,9 +32,7 @@
             <h1 class="mb-5">Beauty & Health Shop</h1>
 
             <p data-scrollax="properties: { translateY: '30%', opacity: 1.6 }">
-              <a
-                href="https://vimeo.com/45830194"
-                class="btn btn-white btn-outline-white px-4 py-3"
+              <a href="" class="btn btn-white btn-outline-white px-4 py-3"
                 >Visit Our Stores</a
               >
             </p>
