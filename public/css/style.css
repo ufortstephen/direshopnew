@@ -10783,7 +10783,7 @@ h5,
 }
 
 .form-control {
-    height: 58px !important;
+    /* height: 58px !important; */
     background: #fff !important;
     color: #000 !important;
     /* font-size: 18px; */

@@ -5,7 +5,7 @@
       <div class="contents">
         <div class="container">
           <div class="row align-items-center justify-content-center">
-            <div class="col-md-12 p-0">
+            <div class="col-md-12">
               <div class="form-block mx-auto">
                 <div class="text-center mb-5">
                   <h3 class="text-uppercase">
@@ -26,7 +26,7 @@
                   <div class="form-group last mb-3">
                     <label for="password">Password</label>
                     <input
-                      type="password"
+                      type="text"
                       class="form-control"
                       placeholder="Your Password"
                       id="password"
@@ -119,8 +119,8 @@ export default {
     width: 100%;
     height: 200px;
   }
-  .form-block[data-v-26084dc2] {
-    background: transparent;
+  .form-block {
+    background: transparent !important;
   }
 }
 
@@ -138,7 +138,7 @@ export default {
   border: none;
   border-radius: 4px;
   height: 54px;
-  background: #efefef;
+  background: #efefef !important;
 }
 .half .contents .form-control:active,
 .half .contents .form-control:focus,
