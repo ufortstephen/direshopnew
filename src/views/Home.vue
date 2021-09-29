@@ -1,5 +1,10 @@
 <template>
   <div class="home">
+    <!-- Page Preloder -->
+    <div id="preloder" v-if="loader">
+      <div class="loader"></div>
+    </div>
+    <!-- Page Preloder -->
     <appHeader />
 
     <section class="ftco-section">
@@ -221,5 +226,84 @@ export default {
     appHeader,
     appFooter,
   },
+  data() {
+    return {
+      loader: true,
+    };
+  },
+
+  created() {
+    setTimeout(() => {
+      this.loader = false;
+    }, 3000);
+    const favicon = document.getElementById("favicon");
+    favicon.href = "https://www.direshop777.com/img/logo2.763dd539.png";
+  },
 };
 </script>
+
+<style scoped>
+/* Preloder */
+
+#preloder {
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 999999;
+  background: rgba(255, 255, 255, 0.165);
+}
+
+.loader {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-top: -13px;
+  margin-left: -13px;
+  border-radius: 60px;
+  animation: loader 0.8s linear infinite;
+  -webkit-animation: loader 0.8s linear infinite;
+}
+
+@keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+    border: 4px solid #673ab7;
+    border-left-color: transparent;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    transform: rotate(360deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+  }
+}
+
+@-webkit-keyframes loader {
+  0% {
+    -webkit-transform: rotate(0deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+  }
+  50% {
+    -webkit-transform: rotate(180deg);
+    border: 4px solid #673ab7;
+    border-left-color: transparent;
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+    border: 4px solid #f44336;
+    border-left-color: transparent;
+  }
+}
+</style>

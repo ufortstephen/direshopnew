@@ -1,6 +1,5 @@
 <template>
   <div>
-    <hero />
     <nav
       class="
         navbar navbar-expand-lg navbar-dark
@@ -11,8 +10,12 @@
       id="ftco-navbar"
     >
       <div class="container">
-        <img src="@/assets/logo2.png" alt="" style="width: 10%" />
-        <span class="navbar-brand">Direshop </span>
+        <img
+          src="https://www.enagic.com/images/logo.svg"
+          alt=""
+          style="width: 3%"
+        />
+        <span class="navbar-brand ml-0 ml-md-3">Enagic </span>
 
         <button
           class="navbar-toggler border-none"
@@ -37,58 +40,42 @@
               >
             </li>
             <li class="nav-item">
-              <a href="https://www.atomy.kr" target="_blank" class="nav-link"
-                >Atomy</a
-              >
+              <a href="https://www.atomy.kr" class="nav-link">Water</a>
             </li>
             <li class="nav-item">
               <a
                 href="javascript:void(0)"
                 class="nav-link"
-                @click="goToEnagicPage()"
-                >Enagic</a
+                @click="gotoHomePage()"
+                >Direshop</a
               >
             </li>
             <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link">Quiari</a>
+              <a href="javascript:void(0)" class="nav-link">Products</a>
             </li>
             <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link">Rainbow rxs</a>
+              <a href="javascript:void(0)" class="nav-link">Shop</a>
             </li>
             <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link">Mixed</a>
+              <a href="javascript:void(0)" class="nav-link">Contact</a>
             </li>
             <li class="nav-item">
               <a href="javascript:void(0)" class="nav-link" @click="goToLogin()"
-                >Login</a
-              >
-            </li>
-            <li class="nav-item">
-              <a
-                href="javascript:void(0)"
-                class="nav-link"
-                @click="goToContactPage"
-                >Contact</a
+                >Ews Login</a
               >
             </li>
           </ul>
         </div>
       </div>
     </nav>
-    <!-- END nav -->
   </div>
 </template>
 
 <script>
-import hero from "./appHero";
 export default {
-  components: {
-    hero,
-  },
   data() {
     return {};
   },
-
   methods: {
     gotoHomePage() {
       this.$router.push("/");
@@ -107,6 +94,18 @@ export default {
 </script>
 
 <style scoped>
+.ftco-navbar-light {
+  background: #2f1974 !important;
+  color: rgba(0, 0, 0, 0.467);
+}
+.ftco-navbar-light .navbar-brand,
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link {
+  color: #fff !important;
+}
+
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+  color: rgba(255, 255, 255, 0.755) !important;
+}
 button:focus {
   outline: none;
   border: none;

@@ -33,6 +33,22 @@ const routes = [{
             return import ('@/views/Login.vue')
         }
     },
+    {
+        path: '/enagic',
+        name: 'Enagic',
+
+        component: function() {
+            return import ('@/SubSites/Enagic/Home.vue')
+        }
+    },
+    {
+        path: '/products',
+        name: 'Enagic Products',
+
+        component: function() {
+            return import ('@/SubSites/Enagic/EnagicProducts.vue')
+        }
+    },
 ]
 
 const router = new VueRouter({
