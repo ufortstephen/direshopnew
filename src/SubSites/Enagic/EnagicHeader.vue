@@ -51,7 +51,12 @@
               >
             </li>
             <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link">Products</a>
+              <a
+                href="javascript:void(0)"
+                class="nav-link"
+                @click="goToProductsPage()"
+                >Products</a
+              >
             </li>
             <li class="nav-item">
               <a href="javascript:void(0)" class="nav-link">Shop</a>
@@ -88,6 +93,9 @@ export default {
     },
     goToEnagicPage() {
       this.$router.push("/enagic");
+    },
+    goToProductsPage() {
+      this.$router.push("/products");
     },
   },
 };

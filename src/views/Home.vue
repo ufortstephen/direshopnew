@@ -235,7 +235,7 @@ export default {
   created() {
     setTimeout(() => {
       this.loader = false;
-    }, 3000);
+    }, 2000);
     const favicon = document.getElementById("favicon");
     favicon.href = "https://www.direshop777.com/img/logo2.763dd539.png";
   },

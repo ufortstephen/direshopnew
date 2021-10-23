@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <appHeader />
+    <!-- <appHeader /> -->
     <section class="ftco-section contact-section">
       <div class="container mt-5">
         <div class="row block-9">
@@ -74,20 +74,21 @@
         </div>
       </div>
     </section>
-    <appFooter />
+    <!-- <appFooter /> -->
   </div>
 </template>
 
-<script>
-import appHeader from "@/components/appHeader.vue";
-import appFooter from "@/components/appFooter.vue";
+// <script>
+// import appHeader from "@/components/appHeader.vue";
+// import appFooter from "@/components/appFooter.vue";
 
-export default {
-  title: "Contact Us  - Direshop Beauty And Health Shop",
-  name: "Home",
-  components: {
-    appHeader,
-    appFooter,
-  },
-};
+// export default {
+//   title: "Contact Us  - Direshop Beauty And Health Shop",
+//   name: "Home",
+//   components: {
+//     appHeader,
+//     appFooter,
+//   },
+// };
+//
 </script>

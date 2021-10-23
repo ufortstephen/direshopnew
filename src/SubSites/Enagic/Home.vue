@@ -200,7 +200,7 @@ export default {
   created() {
     setTimeout(() => {
       this.loader = false;
-    }, 3000);
+    }, 2000);
     const favicon = document.getElementById("favicon");
     favicon.href = "https://www.enagic.com/images/logo.svg";
   },

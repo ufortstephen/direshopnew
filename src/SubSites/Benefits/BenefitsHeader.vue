@@ -1,18 +1,18 @@
 <template>
   <div>
-    <hero />
+    <!-- <hero /> -->
     <nav
       class="
         navbar navbar-expand-lg navbar-dark
         ftco_navbar
         bg-dark
         ftco-navbar-light
+        py-3
       "
       id="ftco-navbar"
     >
       <div class="container">
-        <img src="@/assets/logo2.png" alt="" style="width: 10%" />
-        <span class="navbar-brand">Direshop </span>
+        <img src="@/assets/benefitslogo.png" alt="" style="width: 10%" />
 
         <button
           class="navbar-toggler border-none"
@@ -33,44 +33,25 @@
                 href="javascript:void(0)"
                 class="nav-link"
                 @click="gotoHomePage()"
-                >Home</a
+                >Hemohim</a
               >
             </li>
             <li class="nav-item">
-              <a href="https://www.atomy.com" target="_blank" class="nav-link"
-                >Atomy</a
-              >
+              <a href="javascript:void(0)" class="nav-link">Health</a>
             </li>
             <li class="nav-item">
-              <a
-                href="javascript:void(0)"
-                @click="goToBenefitsPage()"
-                class="nav-link"
-                >Benefits</a
-              >
+              <a href="javascript:void(0)" class="nav-link">Beauty</a>
             </li>
             <li class="nav-item">
-              <a
-                href="javascript:void(0)"
-                class="nav-link"
-                @click="goToEnagicPage()"
-                >Enagic</a
-              >
+              <a href="javascript:void(0)" class="nav-link">Personal</a>
             </li>
             <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link">Quiari</a>
+              <a href="javascript:void(0)" class="nav-link">Food</a>
             </li>
             <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link">Rainbow</a>
+              <a href="javascript:void(0)" class="nav-link">More</a>
             </li>
-            <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link">Mixed</a>
-            </li>
-            <li class="nav-item">
-              <a href="javascript:void(0)" class="nav-link" @click="goToLogin()"
-                >Login</a
-              >
-            </li>
+
             <li class="nav-item">
               <a
                 href="javascript:void(0)"
@@ -88,10 +69,10 @@
 </template>
 
 <script>
-import hero from "./appHero";
+// import hero from "./appHero";
 export default {
   components: {
-    hero,
+    // hero,
   },
   data() {
     return {};
@@ -99,7 +80,7 @@ export default {
 
   methods: {
     gotoHomePage() {
-      this.$router.push("/");
+      this.$router.push("/benefits");
     },
     goToContactPage() {
       this.$router.push("/contact");
@@ -110,9 +91,6 @@ export default {
     goToEnagicPage() {
       this.$router.push("/enagic");
     },
-    goToBenefitsPage() {
-      this.$router.push("/benefits");
-    },
   },
 };
 </script>
@@ -121,5 +99,14 @@ export default {
 button:focus {
   outline: none;
   border: none;
+}
+/* .ftco-navbar-light {
+  background: #fff !important;
+  z-index: 3;
+  -webkit-box-shadow: 0 0 2px 0 rgb(0 0 0 / 7%);
+  box-shadow: 0 0 2px 0 rgb(0 0 0 / 7%);
+} */
+.ftco-navbar-light .navbar-nav > .nav-item > .nav-link:hover {
+  color: #0286e7 !important;
 }
 </style>

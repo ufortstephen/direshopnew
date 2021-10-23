@@ -49,11 +49,34 @@ const routes = [{
             return import ('@/SubSites/Enagic/EnagicProducts.vue')
         }
     },
+    {
+        path: '/benefits',
+        name: 'Atomic Benefits',
+
+        component: function() {
+            return import ('@/SubSites/Benefits/Home.vue')
+        }
+    },
+    {
+        path: '/benefits/application',
+        name: 'Atomic Benefits',
+
+        component: function() {
+            return import ('@/SubSites/Benefits/Application.vue')
+        }
+    },
 ]
+
 
 const router = new VueRouter({
     mode: 'history',
-    routes
+    routes,
+
+
+    scrollBehavior() {
+        return { x: 0, y: 0 }
+    }
+
 })
 
 export default router
