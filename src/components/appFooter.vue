@@ -8,8 +8,9 @@
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">About Us</h2>
               <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
+                My name is Nikki Duong. There are some health machines and many
+                Natural products below. Kangen water machine (Japan) and Anespa
+                machine (Japan).
               </p>
               <ul
                 class="
@@ -50,18 +51,22 @@
                 <ul>
                   <li>
                     <span class="icon icon-map-marker"></span
-                    ><span class="text">xxxxx</span>
+                    ><span class="text"
+                      >5903 Stonebriar crescent Mississauga . ON L5V 2T8
+                    </span>
                   </li>
                   <li>
                     <a href="#"
                       ><span class="icon icon-phone"></span
-                      ><span class="text">+x xxx xxx</span></a
+                      ><span class="text">(647)717-1765</span></a
                     >
                   </li>
                   <li>
                     <a href="#"
                       ><span class="icon icon-envelope"></span
-                      ><span class="text">xxx@ xxx.com</span></a
+                      ><span class="text" style="font-size: 13px"
+                        >kangenwater07.2018@gmail.com</span
+                      ></a
                     >
                   </li>
                 </ul>
