@@ -211,6 +211,7 @@
         </div>
       </div>
     </section>
+    <!-- {{ products }} -->
     <appFooter />
   </div>
 </template>
@@ -230,6 +231,15 @@ export default {
     return {
       loader: true,
     };
+  },
+  computed: {
+    products() {
+      return this.$store.state.products;
+    },
+  },
+
+  mounted() {
+    this.$store.dispatch("getProducts");
   },
 
   created() {

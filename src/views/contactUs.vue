@@ -10,18 +10,18 @@
                 <h2 class="h4">Contact Information</h2>
               </div>
               <div class="col-md-12 mb-3">
-                <p><span>Address:</span> xxxxxxx</p>
+                <p><span>Address:</span> 5903 Stonebriar crescent Mississauga . ON L5V 2T8</p>
               </div>
               <div class="col-md-12 mb-3">
                 <p>
                   <span>Phone:</span>
-                  <a href="tel://1234567920">+ XXXX XXXX XX</a>
+                  <a href="tel://1234567920">(647)717-1765</a>
                 </p>
               </div>
               <div class="col-md-12 mb-3">
                 <p>
                   <span>Email:</span>
-                  <a href="mailto:info@xxx.com">xxx@xxxgmail.com.com</a>
+                  <a href="mailto:info@xxx.com">contact@direshop777.com</a>
                 </p>
               </div>
             </div>
