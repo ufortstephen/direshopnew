@@ -1,7 +1,6 @@
 <template>
   <div>
     <enagicHeader />
-    <!-- <h2 class="text-center my-5">ENAGIC PRODUCTS</h2> -->
 
     <section>
       <div class="container">
@@ -25,11 +24,7 @@
               <img :src="product.photo_main" alt="" style="width: 300px" />
             </div>
             <div class="col-md-12 my-3 text-center">
-              <router-link :to="product.id.toString()"
-                ><button class="my-3 btn view__btn">
-                  View in store
-                </button></router-link
-              >
+              <!-- <button class="my-3 btn view__btn">View in store</button> -->
             </div>
           </div>
         </div>
@@ -56,7 +51,7 @@ export default {
   },
   computed: {
     products() {
-      return this.$store.state.products.slice(2);
+      return this.$store.state.products.slice(2, 3);
     },
   },
 

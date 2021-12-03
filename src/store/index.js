@@ -11,15 +11,21 @@ export default new Vuex.Store({
 
     actions: {
         async getProducts({ commit }) {
-            let response = await axios.get('http://direshop777.herokuapp.com/api/items/');
+            let response = await axios.get('http://direshop.herokuapp.com/api/products/');
             console.log(response);
             commit('SET_PRODUCTS', response.data)
+        },
+        async getProductById({ commit }, id) {
+            let response = await axios.get('http://direshop.herokuapp.com/api/products/');
+            console.log(response);
+            commit('PRODUCT_ID', response.data)
         }
     },
     mutations: {
         SET_PRODUCTS: (state, products) => {
             state.products = products
-        }
+        },
+        GET_PRODUCT: (state, products) => {}
     },
     modules: {}
 })

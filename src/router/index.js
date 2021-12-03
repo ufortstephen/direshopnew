@@ -50,6 +50,14 @@ const routes = [{
         }
     },
     {
+        path: '/:id',
+        name: 'Enagic Products',
+
+        component: function() {
+            return import ('@/SubSites/Enagic/EnagicProduct.vue')
+        }
+    },
+    {
         path: '/benefits',
         name: 'Atomic Benefits',
 

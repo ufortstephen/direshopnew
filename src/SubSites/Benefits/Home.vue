@@ -40,6 +40,7 @@
     </div>
 
     <section class="bg__muted my-5">
+      {{ products }}
       <div class="container my-5">
         <div class="product">
           <div v-for="item in products" :key="item.id">
@@ -144,6 +145,16 @@ export default {
       loader: true,
       products: benefitProducts,
     };
+  },
+
+  computed: {
+    products() {
+      return this.$store.state.products;
+    },
+  },
+
+  mounted() {
+    this.$store.dispatch("getProducts");
   },
 
   methods: {
